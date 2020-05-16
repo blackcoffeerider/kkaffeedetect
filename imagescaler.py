@@ -1,5 +1,6 @@
-# This code other than the rest of the sources in this repository
-# is 
+# This code other than the rest of the sources in this repository is not Creative Commons Attribution Version 4.0 
+# but Creative Commons Attribution-ShareAlike 4.0
+# the original can be found here:
 # https://stackoverflow.com/questions/38285229/calculating-aspect-ratio-of-perspective-transform-destination-image
 
 import scipy.spatial.distance

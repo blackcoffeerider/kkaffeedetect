@@ -1,9 +1,6 @@
 kkaffeedetect is licensed under Creative Commons Attribution Version 4.0 
 the code found in imagescaler.py is Creative Commons Attribution-ShareAlike 4.0
-
-
-
-
+The licenses are stated below
 
 
 
