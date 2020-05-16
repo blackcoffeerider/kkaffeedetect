@@ -122,7 +122,7 @@ Cropping
 
 The following Figure shows the three source images (centered with corrected shape) resulting from commands shown below (in order simple cropping, zoomed, projected to rectangle with guessed aspect).
 
-Disclaimer: the implementation of the projected variant was found here: https://stackoverflow.com/questions/38285229/calculating-aspect-ratio-of-perspective-transform-destination-image unfortunately there is no license mentioned with the code therefore the right remains with the original author. 
+Disclaimer: the implementation of the projected variant was found here: https://stackoverflow.com/questions/38285229/calculating-aspect-ratio-of-perspective-transform-destination-image code was generously provided under the Creative Commons Attribution-ShareAlike 4.0 license. 
 
 
 
