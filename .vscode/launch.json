@@ -1,0 +1,126 @@
+{
+    // Verwendet IntelliSense zum Ermitteln möglicher Attribute.
+    // Zeigen Sie auf vorhandene Attribute, um die zugehörigen Beschreibungen anzuzeigen.
+    // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: tween twoglobs",
+            "type": "python",
+            "request": "launch",
+            "program": "tweensvggenerator.py",
+            "args": ["02_shape_detected_imgs/2019_01_29*svg", "02_shape_detected_imgs/2019_01_3*svg", "800x600", "-o", "convtest"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: tween samples",
+            "type": "python",
+            "request": "launch",
+            "program": "tweensvggenerator.py",
+            "args": ["04_cropped_imgs/test_*.svg", 
+                     "1920x1080", 
+                     "--frames=60", 
+                     "--stillframes=60", 
+                    "-o", "05_tweened_sequence_imgs"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: glob 01_downloaded_tweetimgs/2019_07*.jpg",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": ["01_downloaded_tweetimgs/2019_07*.jpg"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: glob 01_downloaded_tweetimgs/2019_07_2*.jpg",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": ["01_downloaded_tweetimgs/2019_07_2*.jpg"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: svgcreator.py ...2019_07_2*.jpg ....",
+            "type": "python",
+            "request": "launch",
+            "program": "svgcreator.py",
+            "args": [
+                "01_downloaded_tweetimgs/2019_07_2*.jpg",
+                "02_shape_detected_imgs",
+                "--showimages",
+                "--showprocessteps",
+                "--scale=50"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: svgcreator.py ...2019_07*.jpg ....",
+            "type": "python",
+            "request": "launch",
+            "program": "svgcreator.py",
+            "args": [
+                "01_downloaded_tweetimgs/2019_07*.jpg",
+                "02_shape_detected_imgs",
+                "--showimages",
+                "--showprocessteps",
+                "--scale=50"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: svgreader.py ...2019_07*.jpg.svg ....",
+            "type": "python",
+            "request": "launch",
+            "program": "svgreader.py",
+            "args": [
+                "02_shape_detected_imgs/2019_07*.jpg.svg",
+                "--scale=50"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: tweensvggenerator.py ...2019_01_3*.svg ....",
+            "type": "python",
+            "request": "launch",
+            "program": "tweensvggenerator.py",
+            "args": [
+                "02_shape_detected_imgs/2019_01_3*.jpg.svg",
+                "800x600"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Aktuelle Datei",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: svgcreator kimpossible",
+            "type": "python",
+            "request": "launch",
+            "program": "svgcreator.py",
+            "args": [
+                "./01_downloaded_tweetimgs/2020_01_09_kktweet.jpg",
+                "convtest",
+                "--showimages",
+                "--showprocessteps"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: testcrop.svg",
+            "type": "python",
+            "request": "launch",
+            "program": "svgcroptopng.py",
+            "args": [
+                "./testcrop.svg",
+                "--zoom",
+                "--autosuffix"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+__pycache__/
+opencv_venv/
+notizen.md
+Readme.html
+.vscode/settings.json
+.vscode/.ropeproject/config.py
+.vscode/.ropeproject/objectdb
