@@ -1,6 +1,6 @@
 docopt==0.6.2
 matplotlib==3.2.1
-numpy==1.18.2
+numpy==1.22.0
 opencv-python==4.2.0
 requests==2.23.0
 scipy==1.4.1
